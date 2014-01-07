@@ -23,7 +23,7 @@ PLATFORM_LDFLAGS=-mimpure-text
 endif
 
 ifeq ("$(OS)", "linux")
-JAVA_HOME?=/usr/java/default/
+JAVA_HOME?=/usr/lib/jvm/java-8-oracle
 JAVA_HEADERS=$(JAVA_HOME)/include -I$(JAVA_HOME)/include/linux
 endif
 

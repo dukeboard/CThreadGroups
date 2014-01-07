@@ -7,6 +7,6 @@ public class GetThreadID {
     public static native int getTid();
 
     static {
-        System.load("/Users/duke/Documents/dev/dukeboard/CThreadGroups/org.kevoree.cthreadgroups.mapper/target/classes/libGetThreadID.so");
+        System.load("/home/dukee/CThreadGroups/org.kevoree.cthreadgroups.mapper/target/classes/libGetThreadID.so");
     }
 }
