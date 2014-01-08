@@ -57,8 +57,8 @@
                             <goal>exec</goal>
                         </goals>
                         <configuration>
-                            <executable>src/main/c/Makefile</executable>
-                            <workingDirectory>src/main/c</workingDirectory>
+                            <executable>${project.basedir}/src/main/c/Makefile</executable>
+                            <workingDirectory>${project.basedir}/src/main/c</workingDirectory>
                         </configuration>
                     </execution>
                 </executions>
